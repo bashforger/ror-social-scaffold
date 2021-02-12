@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/linters.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/linters.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +203,7 @@
       <workItem from="1613054356010" duration="5441000" />
       <workItem from="1613061824237" duration="749000" />
       <workItem from="1613062753875" duration="4428000" />
-      <workItem from="1613119707720" duration="1217000" />
+      <workItem from="1613119707720" duration="3630000" />
     </task>
     <task id="LOCAL-00001" summary="Added ERD to doc">
       <created>1613120557142</created>
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613120557142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Linter debug">
+      <created>1613121071164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613121071164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added ERD to doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ERD to doc" />
+    <MESSAGE value="Linter debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linter debug" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613120059166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
