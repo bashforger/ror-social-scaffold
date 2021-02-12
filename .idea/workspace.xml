@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/linters.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/linters.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="features" />
+                    <option name="lastUsedInstant" value="1613120609" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="setup" />
                     <option name="lastUsedInstant" value="1613055261" />
@@ -68,9 +73,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: ror-social-scaffold">
     <configuration name="Development: ror-social-scaffold" type="RailsRunConfigurationType" factoryName="Rails">
@@ -194,12 +204,24 @@
       <workItem from="1613054356010" duration="5441000" />
       <workItem from="1613061824237" duration="749000" />
       <workItem from="1613062753875" duration="4428000" />
-      <workItem from="1613119707720" duration="664000" />
+      <workItem from="1613119707720" duration="1217000" />
     </task>
+    <task id="LOCAL-00001" summary="Added ERD to doc">
+      <created>1613120557142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613120557142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added ERD to doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ERD to doc" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613120059166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
