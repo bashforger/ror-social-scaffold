@@ -1,10 +1,7 @@
 module FriendshipsHelper
 
-  def set_friendship
-    @friendship = Friendship.find(params[:id])
+  def friendship_params
+    params.permit(:sender_id, :receiver_id, :status)
   end
 
-  def friendship_params
-    params.require(:friendship).permit(:sender_id, :receiver_id, :status)
-  end
 end
