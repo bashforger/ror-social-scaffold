@@ -31,12 +31,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="friendship" />
-                    <option name="lastUsedInstant" value="1613583201" />
+                    <option name="branchName" value="features" />
+                    <option name="lastUsedInstant" value="1613583270" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="features" />
-                    <option name="lastUsedInstant" value="1613120609" />
+                    <option name="branchName" value="friendship" />
+                    <option name="lastUsedInstant" value="1613583201" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="setup" />
