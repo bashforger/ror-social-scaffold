@@ -48,7 +48,7 @@ module UserHelper
                         :redirect_user => @user %>"
       elsif request_sent?(@user)
         html_out << if friend?
-                      "<%= link_to 'Remove Friend', friendship_path(:sender => @user, :receiver => current_user),
+                      "<%= link_to 'Remove Friend', friendship_path(:sender => current_user, :receiver => @user),
                        method: :delete, data: { confirm: 'Are you sure?' }, class: 'text-danger' %>"
                     else
                       "<%= link_to 'Cancel Friend Request', friendship_path(:sender => current_user,

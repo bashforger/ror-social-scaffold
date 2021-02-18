@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/linters.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/linters.yml" afterDir="false" />
+    <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="Created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +351,56 @@
       <option name="project" value="LOCAL" />
       <updated>1613575261582</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Created User model test">
+      <created>1613660663331</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660663332</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Created Signin and Signup tests">
+      <created>1613660712123</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660712123</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Created Post model rspec test">
+      <created>1613660763242</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660763242</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Created post page rspec">
+      <created>1613660821996</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660821996</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Created like rspec">
+      <created>1613660854005</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660854005</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Created comment rspec">
+      <created>1613660875087</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660875087</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Created friendship model rspec tests">
+      <created>1613660920639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660920639</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +419,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added ERD to doc" />
     <MESSAGE value="Linter debug" />
     <MESSAGE value="Modified Gemfile to support additional functionality" />
     <MESSAGE value="Generated Friendship migration as composite primary key" />
@@ -389,9 +437,16 @@
     <MESSAGE value="Modified Partials to replace test code with user_helper methods" />
     <MESSAGE value="Local DB setup" />
     <MESSAGE value="Minor tweakes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor tweakes" />
+    <MESSAGE value="Created User model test" />
+    <MESSAGE value="Created Signin and Signup tests" />
+    <MESSAGE value="Created Post model rspec test" />
+    <MESSAGE value="Created post page rspec" />
+    <MESSAGE value="Created like rspec" />
+    <MESSAGE value="Created comment rspec" />
+    <MESSAGE value="Created friendship model rspec tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created friendship model rspec tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613570546418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
+    <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613636793107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
   </component>
 </project>

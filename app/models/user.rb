@@ -12,4 +12,7 @@ class User < ApplicationRecord
 
   has_many :sent_requests, class_name: 'Friendship', dependent: :destroy, foreign_key: :sender_id
   has_many :received_requests, class_name: 'Friendship', dependent: :destroy, foreign_key: :receiver_id
+
+  has_many :granted_requests, -> { where status: true }, class_name: 'Friendship', foreign_key: :sender_id
+  has_many :approved_requests, -> { where status: true }, class_name: 'Friendship', foreign_key: :receiver_id
 end
