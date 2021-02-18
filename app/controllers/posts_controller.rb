@@ -20,7 +20,9 @@ class PostsController < ApplicationController
   private
 
   def timeline_posts
-    @timeline_posts ||= Post.all.ordered_by_most_recent.includes(:user)
+    uid = current_user.granted_requests.pluck(:receiver_id) + current_user.approved_requests.pluck(:sender_id)
+    uid += [current_user.id]
+    @timeline_posts ||= Post.where(user_id: uid).ordered_by_most_recent.includes(:user)
   end
 
   def post_params

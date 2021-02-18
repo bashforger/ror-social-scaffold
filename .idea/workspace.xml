@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/friendships_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/friendships_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/user_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/user_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
