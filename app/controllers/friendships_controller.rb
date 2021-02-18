@@ -34,8 +34,7 @@ class FriendshipsController < ApplicationController
     flash[:notice] = 'Update route hit successfully'
     @friendship = Friendship.where(sender_id: params[:sender], receiver_id: params[:receiver]).first
     @friendship.status = true if @friendship
-    if @friendship&.save
-      logger.debug "yeah: #{Friendship.all} \n #{sender} \n #{receiver}"
+    if @friendship.save
       flash[:notice] = 'Added as friend successfully'
     else
       flash[:alert] = 'Something went wrong successfully'
