@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ror-social-scaffold.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ror-social-scaffold.iml" afterDir="false" />
+    <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="Created">
+      <change afterPath="$PROJECT_DIR$/spec/features/create_comment_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/create_like_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/create_post_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/sign_in_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/features/sign_up_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/comment_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/friendship_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/like_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/post_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
