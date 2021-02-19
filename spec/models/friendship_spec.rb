@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Friendship, type: :model do
-  let(:user) { User.new(name: 'John', email: 'john@mail.com', password: 'password') }
-  let(:friend) { User.new(name: 'Tim', email: 'tim@mail.com', password: 'password') }
+  let(:user) { User.new(id: 1000, name: 'John', email: 'john@mail.com', password: 'password') }
+  let(:friend) { User.new(id: 2000, name: 'Tim', email: 'tim@mail.com', password: 'password') }
   let(:friendship) { Friendship.create(sender: user, receiver: friend) }
 
   it 'creates a valid friendship' do
