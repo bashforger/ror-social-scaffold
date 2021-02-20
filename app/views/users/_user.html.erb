@@ -1,6 +1,7 @@
 <li>
-  Name: <%= user.name %>
-  <span class="profile-link">
+    Name: <%= user.name %>
     <%= link_to 'See Profile',  user_path(user), class: 'profile-link' %>
-  </span>
+    <%#= link_to 'Send Friend Request', friendships_path(:sender => current_user, :receiver => user, :status => false), status: false, method: 'post' if no_request?(user) %>
+    <%= friendship_controls_index(user) %>
+    <%#= link_to 'Cancel Friend Request', friendship_path(:sender => current_user, :receiver => @user), method: :delete, data: { confirm: 'Are you sure?' } if request_sent?(user)%>
 </li>

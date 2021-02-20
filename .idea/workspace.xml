@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="Created">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/linters.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/linters.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="features" />
-                    <option name="lastUsedInstant" value="1613120609" />
+                    <option name="lastUsedInstant" value="1613744370" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="friendship" />
+                    <option name="lastUsedInstant" value="1613583201" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="setup" />
@@ -73,6 +77,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
@@ -204,6 +211,11 @@
       <workItem from="1613061824237" duration="749000" />
       <workItem from="1613062753875" duration="4428000" />
       <workItem from="1613119707720" duration="3630000" />
+      <workItem from="1613214534008" duration="17823000" />
+      <workItem from="1613380761646" duration="17800000" />
+      <workItem from="1613409440502" duration="3795000" />
+      <workItem from="1613462764331" duration="21651000" />
+      <workItem from="1613570240398" duration="11888000" />
     </task>
     <task id="LOCAL-00001" summary="Added ERD to doc">
       <created>1613120557142</created>
@@ -219,18 +231,221 @@
       <option name="project" value="LOCAL" />
       <updated>1613121071164</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modified Gemfile to support additional functionality">
+      <created>1613140981374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613140981374</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Generated Friendship migration as composite primary key">
+      <created>1613141087933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613141087933</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Generated &amp; modified friendship model">
+      <created>1613141130291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613141130291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modified User model to associate with friendship">
+      <created>1613141172754</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613141172754</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ran migration">
+      <created>1613141197264</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613141197264</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Generated and populated friendships_controller.rb">
+      <created>1613141284237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613141284237</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modified User Model with Friendship Model relationships">
+      <created>1613574536974</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613574536974</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Modified friendships_helper">
+      <created>1613574664756</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613574664756</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Modified friendships_controller.rb with related methods">
+      <created>1613574720659</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613574720659</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created docker-file for db-setup">
+      <created>1613574758756</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613574758756</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Friendship resource to routes">
+      <created>1613574815631</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613574815631</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Modified User controller">
+      <created>1613574924056</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613574924056</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Firendship related methods in user helpers,&#10;Includes: Firendship checks, request sender|receiver logic">
+      <created>1613575115871</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613575115871</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Replaced test code with friendship_helper methods">
+      <created>1613575147450</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613575147450</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Modified Partials to replace test code with user_helper methods">
+      <created>1613575184422</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613575184422</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Local DB setup">
+      <created>1613575241552</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613575241552</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Minor tweakes">
+      <created>1613575261582</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613575261582</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Created User model test">
+      <created>1613660663331</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660663332</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Created Signin and Signup tests">
+      <created>1613660712123</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660712123</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Created Post model rspec test">
+      <created>1613660763242</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660763242</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Created post page rspec">
+      <created>1613660821996</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660821996</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Created like rspec">
+      <created>1613660854005</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660854005</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Created comment rspec">
+      <created>1613660875087</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660875087</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Created friendship model rspec tests">
+      <created>1613660920639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1613660920639</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added ERD to doc" />
     <MESSAGE value="Linter debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linter debug" />
+    <MESSAGE value="Modified Gemfile to support additional functionality" />
+    <MESSAGE value="Generated Friendship migration as composite primary key" />
+    <MESSAGE value="Generated &amp; modified friendship model" />
+    <MESSAGE value="Modified User model to associate with friendship" />
+    <MESSAGE value="Ran migration" />
+    <MESSAGE value="Generated and populated friendships_controller.rb" />
+    <MESSAGE value="Modified User Model with Friendship Model relationships" />
+    <MESSAGE value="Modified friendships_helper" />
+    <MESSAGE value="Modified friendships_controller.rb with related methods" />
+    <MESSAGE value="Created docker-file for db-setup" />
+    <MESSAGE value="Added Friendship resource to routes" />
+    <MESSAGE value="Modified User controller" />
+    <MESSAGE value="Added Firendship related methods in user helpers,&#10;Includes: Firendship checks, request sender|receiver logic" />
+    <MESSAGE value="Replaced test code with friendship_helper methods" />
+    <MESSAGE value="Modified Partials to replace test code with user_helper methods" />
+    <MESSAGE value="Local DB setup" />
+    <MESSAGE value="Minor tweakes" />
+    <MESSAGE value="Created User model test" />
+    <MESSAGE value="Created Signin and Signup tests" />
+    <MESSAGE value="Created Post model rspec test" />
+    <MESSAGE value="Created post page rspec" />
+    <MESSAGE value="Created like rspec" />
+    <MESSAGE value="Created comment rspec" />
+    <MESSAGE value="Created friendship model rspec tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created friendship model rspec tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613120059166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
+    <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613730128780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
   </component>
 </project>
