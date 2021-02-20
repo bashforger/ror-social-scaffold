@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="Created">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/linters.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/linters.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ror-social-scaffold.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ror-social-scaffold.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/friendships_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/friendships_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/user_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/user_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="friendship-refactor" />
+                    <option name="lastUsedInstant" value="1613744593" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="features" />
                     <option name="lastUsedInstant" value="1613744370" />
                   </RecentBranch>
@@ -44,10 +52,6 @@
                   <RecentBranch>
                     <option name="branchName" value="development" />
                     <option name="lastUsedInstant" value="1613054196" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1613054195" />
                   </RecentBranch>
                 </list>
               </option>
@@ -216,6 +220,7 @@
       <workItem from="1613409440502" duration="3795000" />
       <workItem from="1613462764331" duration="21651000" />
       <workItem from="1613570240398" duration="11888000" />
+      <workItem from="1613823440500" duration="2472000" />
     </task>
     <task id="LOCAL-00001" summary="Added ERD to doc">
       <created>1613120557142</created>
@@ -446,6 +451,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created friendship model rspec tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613730128780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
+    <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613824765954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
   </component>
 </project>
