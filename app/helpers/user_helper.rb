@@ -43,9 +43,8 @@ module UserHelper
     html_out = ''
     if @user.id != current_user[:id]
       if request_sent?(@user) && request_received?(@user)
-        html_out << "<div>Your Friend.</div><%= link_to 'Remove as friend', :controller => 'friendships',
-                        :action => 'destroy_both', :sender => current_user, :receiver => @user,
-                        :redirect_user => @user %>"
+        html_out << "<%= link_to 'Remove Friend', unfriend_path(:sender => current_user, :receiver => @user),
+                         method: :post, data: { confirm: 'Are you sure?' }, class: 'text-danger' %>"
       elsif request_sent?(@user)
         html_out << if friend?
                       "<%= link_to 'Remove Friend', friendship_path(:sender => current_user, :receiver => @user),
@@ -59,17 +58,18 @@ module UserHelper
         html_out << "<%= link_to 'Remove Friend', friendship_path(:sender => @user, :receiver => current_user),
                          method: :delete, data: { confirm: 'Are you sure?' }, class: 'text-danger' %>"
       elsif request_received?(@user)
-        if friend?
-          html_out << "<%= link_to 'Remove Friend', friendship_path(:sender => @user, :receiver => current_user),
+        html_out << if friend?
+                      "<%= link_to 'Remove Friend', friendship_path(:sender => @user, :receiver => current_user),
                        method: :delete, data: { confirm: 'Are you sure?' }, class: 'text-danger' %>"
-        else
-          html_out << "<div class='text-success'>You received friend request from
+                    else
+                      "<div class='text-success'>You received friend request from
                           <strong><%= @user.name %></strong>.</div>
                           <%= link_to 'Approve Friend Request', accept_path(:sender => @user,
                           :receiver => current_user), method: :post, class: 'text-success' %><br>
-                          <%= link_to 'Remove Friendship', friendship_path(:sender => @user, :receiver => current_user),
-                           method: :delete, data: { confirm: 'Are you sure?' }, class: 'text-danger' %>"
-        end
+                          <%= link_to 'Reject Friend Request', friendship_path(:sender => @user,
+                           :receiver => current_user), method: :delete, data: { confirm: 'Are you sure?' },
+                            class: 'text-danger' %>"
+                    end
       else
         html_out << "<%= link_to 'Send Friend Request', friendships_path(:sender => current_user, :receiver => @user,
                      :status => false), status: false, method: 'post' if no_request?(@user) %>"
