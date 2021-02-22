@@ -1,61 +1,36 @@
 # Scaffold for social media app with Ruby on Rails
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+> A simple useless fun Social Media Site made to practice Rails skills, following instructions from the ![microverse](https://camo.githubusercontent.com/3a5835d4f56c57cec85939ac345e43fef164c178/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6963726f76657273652d626c756576696f6c6574) Rails Technical Curriculum. 
 
-## Built With
 
-- Ruby v2.7.0
-- Ruby on Rails v5.2.4
+Concepts of Ruby on Rails used:
 
+- Models, Views, and Controllers (MVC)
+- In-depth Active Records & Associations 
+- Data Structures & Relationships
+- Views with forms, partials, and helpers
+
+## To install demo
+
+- Clone the project repo from [GitHub](https://github.com/bashforger/ror-social-scaffold) using `git clone https://github.com/bashforger/ror-social-scaffold`
+- Make sure [Ruby-lang](https://www.ruby-lang.org/en/) is installed
+- Make sure [Bundler](https://bundler.io/) is installed
+- Navigate to the project directory like `cd ror-social-scaffold`
+- Install the required gems. Run `bundle install`
+- Install Javascript dependencies. Run `yarn install`
+- Make sure you have PostgreSQL installed locally or deployed using [docker-compose](https://github.com/bashforger/ror-social-scaffold/blob/development/config/docker-compose.yml) file
+- Install the locale database. Run `rake db:migrate`
+- If you have problems with the gem versions try installing [RVM](https://rvm.io/)
+- Launch a Rails Server using `rails server`
+- Open your browser and go to `127.0.0.1:3000` or `localhost:3000`
 ## Live Demo
 
-TBA
+https://social-media-bashforger.herokuapp.com
 
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-Ruby: 2.6.3
-Rails: 5.2.3
-Postgres: >=9.5
-
-### Setup
-
-Instal gems with:
-
-```
-bundle install
-```
-
-Setup database with:
-
-```
-   rails db:create
-   rails db:migrate
-```
-
-### Github Actions
-
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
-
-1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
-2. Create the `feature/branch` and push.
-3. Start working on your milestone as usual.
-4. Open a PR from the `feature/branch` when your work is done.
-
-
-### Usage
-
-Start server with:
-
-```
-    rails server
-```
-
-Open `http://localhost:3000/` in your browser.
 
 ### Run tests
 
@@ -65,13 +40,13 @@ Open `http://localhost:3000/` in your browser.
 
 > Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
-### Deployment
-
-TBA
 
 ## Authors
 
-TBA
+👤 **Muhammad Adeel Danish**
+
+- GitHub: [@bashforger](https://github.com/bashforger)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammad-adeel-danish/)
 
 ## 🤝 Contributing
 
@@ -83,11 +58,8 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-TBA
 
 ## 📝 License
 
-TBA
+MIT
 

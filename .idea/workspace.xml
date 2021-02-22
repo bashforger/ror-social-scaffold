@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="Created">
+    <list default="true" id="21010837-2c3a-49ee-82ab-40472744e3ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +31,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="friendship-refactor" />
-                    <option name="lastUsedInstant" value="1613744593" />
+                    <option name="branchName" value="heroku" />
+                    <option name="lastUsedInstant" value="1613986540" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="features" />
-                    <option name="lastUsedInstant" value="1613744370" />
+                    <option name="lastUsedInstant" value="1613981606" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="friendship-refactor" />
+                    <option name="lastUsedInstant" value="1613744593" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="friendship" />
@@ -45,10 +49,6 @@
                   <RecentBranch>
                     <option name="branchName" value="setup" />
                     <option name="lastUsedInstant" value="1613055261" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="development" />
-                    <option name="lastUsedInstant" value="1613054196" />
                   </RecentBranch>
                 </list>
               </option>
@@ -408,7 +408,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613660920639</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Created header partial">
+      <created>1613981442774</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1613981442774</updated>
+    </task>
+    <task id="LOCAL-00028" summary="created notices partial">
+      <created>1613981454775</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1613981454775</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,8 +441,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Linter debug" />
-    <MESSAGE value="Modified Gemfile to support additional functionality" />
     <MESSAGE value="Generated Friendship migration as composite primary key" />
     <MESSAGE value="Generated &amp; modified friendship model" />
     <MESSAGE value="Modified User model to associate with friendship" />
@@ -452,7 +464,9 @@
     <MESSAGE value="Created like rspec" />
     <MESSAGE value="Created comment rspec" />
     <MESSAGE value="Created friendship model rspec tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created friendship model rspec tests" />
+    <MESSAGE value="Created header partial" />
+    <MESSAGE value="created notices partial" />
+    <option name="LAST_COMMIT_MESSAGE" value="created notices partial" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ror_social_scaffold@Development__ror_social_scaffold.rcov" NAME="Development: ror-social-scaffold Coverage Results" MODIFIED="1613979202456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-social-scaffold" />
